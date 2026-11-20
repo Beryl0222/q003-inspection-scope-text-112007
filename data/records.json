@@ -1,0 +1,178 @@
+{
+  "inspection": [
+    {
+      "id": "N1",
+      "handover": "H1",
+      "conditions": "低温静置后",
+      "text": "最尾件转轴根裂，压盖没松，样号 L-091。"
+    },
+    {
+      "id": "N2",
+      "handover": "H1",
+      "conditions": "低温静置后",
+      "text": "重看上一条样本。根部裂纹更清楚，左侧那台没复看。"
+    },
+    {
+      "id": "N3",
+      "handover": "H2",
+      "conditions": "低温静置后",
+      "text": "七号箱尾件，转轴入座处断纹。样号最后两位抄成了 91，也可能是 97。"
+    },
+    {
+      "id": "N4",
+      "handover": "H3",
+      "conditions": "常温，已更换转轴",
+      "text": "这回未复现上轮转轴裂，壳面划伤仍可见。"
+    },
+    {
+      "id": "N5",
+      "handover": "H4",
+      "conditions": "低温静置后",
+      "text": "一件垫板松了，未查看转轴。"
+    },
+    {
+      "id": "N6",
+      "handover": "H3",
+      "conditions": "低温静置后",
+      "text": "旧件留样 L-097 根裂，未换轴时的复测。"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "H1",
+      "box": "7",
+      "from": "芦岸装配",
+      "to": "桥西店",
+      "serial_candidates": [
+        "L-091",
+        "L-092"
+      ],
+      "date": "2026-10-02"
+    },
+    {
+      "id": "H2",
+      "box": "7",
+      "from": "临水分拨",
+      "to": "江台店",
+      "serial_candidates": [
+        "L-091",
+        "L-097"
+      ],
+      "date": "2026-10-04"
+    },
+    {
+      "id": "H3",
+      "box": "9",
+      "from": "临水分拨",
+      "to": "码头店",
+      "serial_candidates": [
+        "L-097"
+      ],
+      "date": "2026-10-04"
+    },
+    {
+      "id": "H4",
+      "box": "4",
+      "from": "芦岸装配",
+      "to": "桥西店",
+      "serial_candidates": [
+        "L-111"
+      ],
+      "date": "2026-10-05"
+    },
+    {
+      "id": "H5",
+      "box": "8",
+      "from": "临水分拨",
+      "to": "河口店",
+      "serial_candidates": [
+        "L-102"
+      ],
+      "date": "2026-10-05"
+    }
+  ],
+  "assembly": [
+    {
+      "id": "L-091",
+      "component_lot": "K4",
+      "plant": "芦岸"
+    },
+    {
+      "id": "L-092",
+      "component_lot": "K5",
+      "plant": "芦岸"
+    },
+    {
+      "id": "L-097",
+      "component_lot": "K4",
+      "plant": "矶北"
+    },
+    {
+      "id": "L-102",
+      "component_lot": "K4",
+      "plant": "矶北"
+    },
+    {
+      "id": "L-111",
+      "component_lot": "K6",
+      "plant": "芦岸"
+    }
+  ],
+  "correction": [
+    {
+      "id": "U1",
+      "note": "N3",
+      "received": "2026-10-06",
+      "text": "交接联找到了，N3是桥西退回复看 L-091，不是该批另一个序号。"
+    }
+  ],
+  "site": [
+    {
+      "id": "A",
+      "name": "桥西店",
+      "remaining": 0
+    },
+    {
+      "id": "B",
+      "name": "江台店",
+      "remaining": 1
+    },
+    {
+      "id": "C",
+      "name": "码头店",
+      "remaining": 1
+    },
+    {
+      "id": "D",
+      "name": "河口店",
+      "remaining": 1
+    }
+  ],
+  "receipt": [
+    {
+      "id": "R1",
+      "site": "A",
+      "item": "L-091",
+      "type": "实物签收"
+    },
+    {
+      "id": "R2",
+      "site": "B",
+      "item": null,
+      "type": "待落实意向"
+    }
+  ],
+  "request": [
+    {
+      "id": "Q1",
+      "remaining_total": 2,
+      "hypotheses": [
+        "转轴供应批次异常",
+        "芦岸装配异常"
+      ],
+      "covered_sites": [
+        "A"
+      ]
+    }
+  ]
+}
